@@ -1,0 +1,285 @@
+body{
+	font-family: 'EB Garamond', serif;
+}
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+/* primera-sec */
+.nav li a img {
+  padding-left: 40%;
+  max-width: 120%;
+}
+#img-logotipo{
+	height: 10%;
+	width: auto;
+}
+#menu{
+	padding-right: 20%;
+}
+.navbar-inverse .navbar-nav {
+
+	padding-right: 5%;
+}
+.navbar a:hover{
+	color: #000000;
+	background-color: white;
+}
+/* segunda parte */
+.segunda-sec{
+	background-image: url(../img/bg-header.jpg);
+	height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*  background-attachment: fixed; */
+}
+.segunda{
+	height: 800px;
+}
+#logo-central{
+	padding-top: 13%;
+}
+.flecha{
+	color: white;
+    border: 3px solid #fff;
+    -webkit-border-radius: 50%;
+	padding: 2%;
+    margin-left: 47%;
+    margin-top: 8%;
+}
+/* tercera parte */
+.tercera-sec{
+	height: 200%;
+	background-color: white;
+	padding-bottom: 10%;
+}
+.tercera-sec h1{
+	padding-top: 5%;
+	font-weight: bold;
+}
+.tercera-sec hr{
+	width: 10%;
+	color: black;
+	padding: -3%;
+}
+.fa {
+    font-size: 250%;
+	color: black;
+    border: 3px solid #fff;
+    -webkit-border-radius: 50%;
+    margin-left: 47%;
+    margin-top: 8%;
+    padding: 2%;
+}
+.glyphicon{
+	font-size: 250%;
+}
+/* cuarta parte */
+.cuarta-sec{
+	background-image: url(../img/bg-quote.jpg);
+	height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*  background-attachment: fixed; */
+}
+.cuarta-sec h1{
+	padding-top: 20%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.cuarta-sec{
+	height: 800px;
+}
+.cuarta-sec h1{
+	color: white;
+}
+.cuarta-sec hr{
+	width: 10%;
+	line-height:15px;
+}
+.cuarta-sec li a{
+	padding: 1%;
+	color: white;
+	text-decoration: none;
+	border: 2px solid white;
+	font-weight: bold;
+	font-size: 130%;
+}
+/* quinta parte - carrusel */
+.quinta-sec{
+	height: 600px;
+	background-color: #dbdbdb;
+}
+/* CARRUSEL */
+.media-carrusel 
+{
+	width: 100%;
+  	margin-bottom: 0;
+  	padding: 0 40px 30px 40px;
+  	margin-top: 30px;
+}
+/* Previous button  */
+.media-carrusel .carrusel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carrusel .carrusel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carrusel .carrusel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carrusel .carrusel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carrusel .carrusel-indicators .active 
+{
+  background: #333333;
+}
+.media-carrusel img
+{
+  width: 300px;
+}
+/* FIN CARRUSEL */
+.thumbnail {
+	background-color: transparent;
+	border: none;
+}
+/* sexta parte*/
+.sexta-sec{
+	height: 500%;
+	background-color: white;
+}
+#carrusel{
+	padding-bottom: 10%;
+}
+.sexta-sec h1{
+	padding-top: 5%;
+	font-weight: bold;
+}
+.sexta-sec hr{
+	width: 20%;
+}
+.carrusel-inner .item img{
+	max-width: 70%;
+}
+/* section-seven */
+.section-seven{
+	height: 300px;
+	background-color: #1f1d1f;
+}
+.section-seven h1{
+	padding-top: 4%;
+	font-weight: bold;
+	color: white;
+}
+.section-seven hr{
+	width: 20%;
+}
+.section-seven input{
+	width: 50%;
+	height: 40px;
+}
+.section-seven button{
+	width: 10%;
+	height: 40px;
+}
+/* section-eight */
+.section-eight{
+	background-image: url(../img/bg-pricing.jpg);
+	height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.section-eight{
+	height: 700px;
+	height: 100%;
+}
+.section-eight h1{
+	font-weight: bold;
+	color: white;
+}
+.section-eight hr{
+	width: 20%;
+}
+.section-eight h4{
+	padding-bottom: 1%;
+}
+.base1{
+	width: 250px;
+	height: 350px;
+	background-color: white;
+	color: black;
+	padding-bottom: 10%;
+}
+#centrar{
+	display: flex;
+	align-items: center;
+}
+.section-eight h2{
+	padding-top: 12%;
+	font-weight: bold;
+	color: black;
+}
+.section-eight a{
+	text-decoration: none;
+	border: 1px solid black;
+	padding: 5%;
+}
+#row1{
+	padding-bottom: 8%;
+}
+/* section-nine */
+.section-nine{
+	height: 600px;
+	background-color: white;
+}
+.section-nine h1{
+	font-weight: bold;
+	color: black;
+}
+.section-nine hr{
+	width: 10%;
+}
+/* section-ten */
+.section-ten{
+	background-image: url(../img/bg-footer.jpg);
+	height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-ten{
+	height: 600px;
+}
+#row2{
+	padding-right: 0px;
+}
+.section-ten .up{
+	height: 120px;
+	width: 100%;
+	background-color: gray;
+}
